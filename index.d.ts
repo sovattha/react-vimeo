@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Player, Error } from '@vimeo/player'
+import { Player, Error } from 'ssok-vimeo-player'
 
 export type PlayEvent = {
   /**

@@ -48,7 +48,7 @@ export default function createVimeo({ shouldFail = false } = {}) {
   });
 
   const Vimeo = proxyquire.noCallThru().load('../../src/index.js', {
-    '@vimeo/player': function Player(...args) {
+    'ssok-vimeo-player': function Player(...args) {
       return sdkMock(...args);
     },
   }).default;

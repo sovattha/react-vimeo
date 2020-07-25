@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Player from '@vimeo/player';
+import Player from 'ssok-vimeo-player';
 import eventNames from './eventNames';
 
 class Vimeo extends React.Component {
